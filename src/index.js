@@ -1,12 +1,7 @@
-import React from 'react';
-import GreetingComponent from './GreetingComponent';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-function App() {
-  return (
-    <div className="App">
-      <GreetingComponent />
-    </div>
-  );
-}
 
-export default App;
+
+ReactDOM.render(<App />, document.getElementById("root"));
